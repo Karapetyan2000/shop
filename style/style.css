@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Raleway", sans-serif;
+}
+
+/* Navbar */
+.nav-link{
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0 20px;
+}
+.navbar-nav-right .nav-link{
+    font-weight: 400;
+    text-transform: initial;
+    padding: 0 10px;
+}
+.navbar-nav-right .nav-link i{
+    margin-right: 10px;
+}
+.caret::before,  /* Убираем стрелку рядом Fashion */
+.caret::after {
+    border: none;
+    content: none;
+}
+
+/* Search-Block */
+.search-block{
+    background-color: #dfe6e9;
+    position: relative;
+    padding: 20px 0;
+    text-align: right;
+}
+.search-block-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.search-block-input{
+    padding: 15px 10px;
+    border: 1px solid #dfe6e9;
+    font-size: 14px;
+    color: #636e72;
+}
+
+.search-block-input::placeholder{
+    font-size: 14px;
+    color: black;
+}
+.search-block-input:focus{
+    outline: none;
+}
+.search-block-submit{
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+    width: 1rem;
+    height: 1rem;
+    background-image: url(../img/Iocn.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.search-block-form{
+    position: relative;
+}
+
+
+/* Carusel */
+
+.carousel{
+    margin: 50px 0 20px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    padding: 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #aba6a3;
+    border-radius: 50%;
+}
+.base{
+    position: absolute;
+    top: 200px;
+    left: 40vh; 
+}
+.base h5{
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-bottom: 60px;
+}
+.base a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #2d3436;
+    border: 3px solid #2d3436;
+    padding: 15px 40px;
+}
+/* /Carusel */
+
+
+/* Top Produkte */
+
+.top-produkte p{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15vh;
+    font-size: 20px;
+}
+
+/* /Top Produkte */
+
+/* Produck */
+
+.product-sect{
+    background-color: #f3f5f7;
+    padding: 15px 0 100px;
+}
+.product-block{
+    background-color: #ffff;
+    padding: 40px 25px;
+    text-align: center;
+}
+.product-block-img{
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eeee;
+    min-height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-block-title .product-block-price{
+    font-size: 14px;
+}
+.product-block-price{
+    font-weight: 700;
+}
+.product-block-text{
+    font-size: 14px;
+    color: #848484;
+}
+.product-block-desc{
+    margin-bottom: 10px;
+}
+
+/* /Produck */
+/*PARTNERS*/
+.partners-slider-block{
+    padding: 50px 0;
+    border-top: 2px solid #eaeaea
+}
+.slick-slide img{
+    margin: auto;
+}
+
+/* Footer */
+
+.footer-line{
+    padding: 50px 0;
+    border-top: 2px solid #eaeaea;
+}
+.footer-phone{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.footer-phone .footer-heding{
+    margin: 0;
+}
+.footer-phone-icon{
+    font-size: 32px;
+    margin-right: 10px;
+    color: #666;
+}
+.footer-heading{
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+}
+.footer-phone-text a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-link{
+    color: #666;
+    font-size: 12px;
+}
+.footer-link a{
+    color: #666;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.footer-link i{
+    margin-right: 10px;
+}
+
+.footer-search-block-form .search-block-input{
+    padding: 10px 5px;
+    width: 100%;
+}
+.footer-search-block-form .search-block-submit{
+    background-image: url(../img/Icon-arows.png);
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    color: #666;
+    margin-right: 10px ;
+}
+/* /Footer */
+
+.btn-top{
+    position: fixed;
+    right: 0;
+    bottom: 10vh;
+    width: 40px;
+    height: 40px;
+    background-color: #989898;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-90deg);
+    opacity: .3;
+    z-index: 1;
+}
+.btn-top:hover{
+    opacity: 1;
+}
+
